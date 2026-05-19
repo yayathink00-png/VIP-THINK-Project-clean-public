@@ -17,6 +17,14 @@
 - 支持将结果同步到飞书多维表格
 - 支持生成批次报告和失败明细，便于复盘
 
+## Project Folder
+
+- [Overview](./overview/PROJECT_OVERVIEW.md)
+- [Deliverables](./deliverables/DELIVERABLES.md)
+- [Workflow](./workflow/WORKFLOW.md)
+- [Evidence](./evidence/EVIDENCE_SUMMARY.md)
+- [Next Steps](./next-steps/NEXT_STEPS.md)
+
 ## Current Clean Repository Status
 
 This clean repository currently includes the project description only.
@@ -40,4 +48,3 @@ Create a sanitized source-code PR that includes only:
 - dependency manifest
 - `.env.example` with fake placeholders
 - README rewritten without internal resource references
-

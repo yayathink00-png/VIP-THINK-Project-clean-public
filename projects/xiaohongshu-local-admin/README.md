@@ -15,6 +15,14 @@
 - 建立安全转移和发布门禁意识
 - 明确不提交真实 API key、token、cookie、图片和导出物
 
+## Project Folder
+
+- [Overview](./overview/PROJECT_OVERVIEW.md)
+- [Deliverables](./deliverables/DELIVERABLES.md)
+- [Workflow](./workflow/WORKFLOW.md)
+- [Evidence](./evidence/EVIDENCE_SUMMARY.md)
+- [Next Steps](./next-steps/NEXT_STEPS.md)
+
 ## Current Clean Repository Status
 
 This clean repository includes only the leadership-facing summary.
@@ -34,4 +42,3 @@ The original checkpoint folders contain useful delivery evidence but may include
 ## Recommended Next Step
 
 Create a sanitized milestone report that summarizes Step 4/Step 5/Step 6 outcomes without copying raw checkpoint text or private operational details.
-

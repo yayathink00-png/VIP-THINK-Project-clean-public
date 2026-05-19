@@ -16,6 +16,14 @@
 - 支持更新素材任务状态
 - 建立团队协作说明和后续自动化路径
 
+## Project Folder
+
+- [Overview](./overview/PROJECT_OVERVIEW.md)
+- [Deliverables](./deliverables/DELIVERABLES.md)
+- [Workflow](./workflow/WORKFLOW.md)
+- [Evidence](./evidence/EVIDENCE_SUMMARY.md)
+- [Next Steps](./next-steps/NEXT_STEPS.md)
+
 ## Current Clean Repository Status
 
 This clean repository keeps only the project summary and governance boundary.
@@ -34,4 +42,3 @@ The original folder contains generated PNG assets, packaged ZIP output, Feishu r
 ## Recommended Next Step
 
 Replace all platform resource identifiers with placeholders, then migrate only sanitized scripts and public-safe templates. Keep all generated images private until asset rights are approved.
-

@@ -11,6 +11,14 @@
 - Math Asset Automation
 - Xiaohongshu Local Admin
 
+Each project now has a complete folder package:
+
+- `overview/`
+- `deliverables/`
+- `workflow/`
+- `evidence/`
+- `next-steps/`
+
 ## What Was Protected
 
 原仓库中存在导出物、生成图片、checkpoint/handoff、平台资源标识、cookie/session/token 相关上下文和私有 prompt 边界问题。为了保护成员责任边界和公司资料，本次没有把这些内容直接放入 clean 仓库。
@@ -25,6 +33,7 @@
 
 - 新仓库已创建为 private
 - 项目按四个方向重新分组
+- 每个项目已建立完整子文件夹，便于领导逐项查看
 - 已加入 public release governance 文档
 - 未迁移风险资产
 - 后续可按项目逐步提交脱敏源码和公开安全 demo
@@ -36,4 +45,3 @@
 3. 再迁移 `ai-video-automation-mvp` 的安全 CLI 骨架。
 4. 对图片和小红书项目只迁移流程说明，不迁移生成资产。
 5. 每次迁移都走 PR、扫描和负责人确认。
-
