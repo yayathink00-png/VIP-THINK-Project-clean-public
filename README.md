@@ -1,32 +1,41 @@
-# VIP THINK Project Portfolio
+# VIP THINK Automation Project Portfolio
 
-This repository is the clean, leadership-facing project portfolio for VIP THINK automation work.
+This repository is the clean, leadership-facing portfolio for VIP THINK automation work.
 
-It keeps the project structure and delivery evidence visible, while excluding raw data, exports, generated media, private prompts, platform resource identifiers, cookies, session files, and secrets.
+It keeps the project structure, work scope, delivery evidence, and governance boundary visible, while excluding raw data, exports, generated media, private prompts, platform resource identifiers, cookies, session files, and secrets.
 
 ## Executive Summary
 
-The original work has been整理成四个可汇报项目包。每个项目现在都有独立子文件夹，包含项目概览、交付内容、流程说明、证据说明和下一步计划。
+This portfolio summarizes four automation workstreams completed or advanced for VIP THINK. The goal is not to dump raw working files into GitHub. The goal is to show what was built, what business problem it solves, what has already been validated, and which materials are intentionally kept private.
 
-| Project | Business Value | Current Clean Status |
+| Project | What Was Built | Business Value |
 | --- | --- | --- |
-| [Audio BI Transcription](./projects/audio-bi-transcription/) | 将 BI 通话数据、录音下载、Whisper 转写、飞书同步串成自动化流水线 | 已建立完整项目包，源码待脱敏后分批迁入 |
-| [AI Video Automation MVP](./projects/ai-video-automation-mvp/) | 建立 AI 视频生成、下载、剪辑、质检和通知的半自动流程 | 已建立完整项目包，生成视频和 private prompts 暂不公开 |
-| [Math Asset Automation](./projects/math-asset-automation/) | 将数学思维素材需求转成图片生成、状态管理和回填流程 | 已建立完整项目包，图片产物和平台资源标识暂不公开 |
-| [Xiaohongshu Local Admin](./projects/xiaohongshu-local-admin/) | 支撑小红书内容运营、Notion 同步、图片工作流和发布门禁 | 已建立完整项目包，checkpoint/handoff 原文暂不公开 |
+| [Audio BI Transcription](./projects/audio-bi-transcription/) | BI 导出、录音下载、Whisper 转写、飞书同步、批次报告、失败重试 | 把通话复盘从手工整理变成可追踪的批处理流水线 |
+| [AI Video Automation MVP](./projects/ai-video-automation-mvp/) | Codex 中控、人工 Gate、即梦生成辅助、自动下载、FFmpeg 剪辑、QC、钉钉提醒 | 把一次性 AI 视频制作沉淀为可复用生产线 |
+| [Math Asset Automation](./projects/math-asset-automation/) | 素材需求转列、多维表格任务读取、图片产物上传、状态回填、协作 SOP | 把投放素材生产从聊天驱动变成任务驱动 |
+| [Xiaohongshu Local Admin](./projects/xiaohongshu-local-admin/) | 账号 DNA、Codex 内容生成、Notion 同步、图片工作流、发布门禁、MCP 检查 | 把小红书内容运营从分散步骤变成有检查点的本地工作台 |
 
-## Why This Repository Is Clean
+## What This Shows
 
-The source repository contained useful project work, but also included items unsuitable for public or broad leadership circulation:
+This clean portfolio shows the real work without exposing sensitive operational assets:
 
-- exported files such as ZIP, PDF, HTML, and CSV
-- generated PNG batches and packaged image assets
-- dated checkpoint and handoff folders
-- platform workflow references and possible internal resource identifiers
-- cookie/session/token-related implementation context
-- private prompt and source-media adaptation context
+- workflow design and implementation scope
+- delivery checkpoints and validated capabilities
+- business value and operational leverage
+- safety boundaries for data, media, credentials, and prompts
+- next steps for migrating sanitized source code later
 
-This clean repository therefore presents the project value and governance evidence without copying risky assets.
+## What It Does Not Expose
+
+The source repository included working materials that should not be circulated broadly:
+
+- BI exports, audio files, generated transcripts, and run databases
+- generated images, videos, frames, previews, ZIP packages, PDF/HTML/CSV exports
+- private prompts, source-media breakdowns, account strategy details
+- local paths, platform resource identifiers, cookies, session files, API keys, and webhooks
+- raw checkpoint folders that mix delivery evidence with private operational context
+
+This repository therefore presents a clean project narrative first, and keeps risky implementation artifacts out until each project owner approves a sanitized migration.
 
 ## Repository Structure
 
@@ -75,4 +84,4 @@ Before making this repository public or adding source code, complete:
 
 Recommended framing:
 
-> This is no longer a raw working repository. It is a clean portfolio that shows project ownership, delivery scope, reusable workflow design, and governance maturity. Risky working materials remain protected, while project value is visible and easy to review.
+> This is no longer a raw working repository. It is a clean portfolio showing project ownership, delivery scope, reusable workflow design, and governance maturity. Sensitive working materials remain protected, while the value of the work is visible and easy to review.

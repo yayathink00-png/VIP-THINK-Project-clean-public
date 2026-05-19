@@ -2,7 +2,7 @@
 
 ## Goal
 
-Build a semi-automated AI video production workflow for VIP THINK that keeps human confirmation in control while reducing repetitive production work.
+Build a semi-automated AI video production workflow for VIP THINK that keeps human confirmation in control while reducing repetitive production work and generation mistakes.
 
 ## User Value
 
@@ -17,6 +17,11 @@ Included in the working project:
 - logo/subtitle post-production approach
 - QC report direction
 - team review notification design
+- segment/take naming rules
+- gate status tracking
+- guidance to continue generation in the approved conversation rather than restarting context
+- handling of known issues such as unwanted embedded subtitles
+- next-step design for preflight checks before Segment 03-05
 
 Excluded from this clean repo:
 - generated videos
@@ -29,5 +34,5 @@ Excluded from this clean repo:
 
 ## Leadership Message
 
-This work shows a practical MVP path for AI video production: it avoids fully unattended generation, keeps review responsibility clear, and creates a repeatable production pipeline.
+This work shows a practical MVP path for AI video production: it avoids unsafe fully unattended generation, keeps review responsibility clear, reduces repeated manual operations, and creates a production pipeline that can be reused for future ad videos.
 

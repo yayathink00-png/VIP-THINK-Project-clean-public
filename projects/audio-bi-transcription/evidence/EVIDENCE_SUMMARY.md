@@ -3,8 +3,10 @@
 ## What Can Be Reported
 
 - A working pipeline design exists for BI call data processing.
-- The project includes batch automation, safety checks, state tracking, and retry design.
+- The project includes batch automation, safety checks, state tracking, retry design, and report output.
 - The workflow supports a path from raw call records to structured text output.
+- The command design covers both engineering use and operator-friendly guided execution.
+- The implementation was structured so future migration can separate safe source code from private run artifacts.
 
 ## What Is Intentionally Not Shown Here
 
