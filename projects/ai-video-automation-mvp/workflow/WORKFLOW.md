@@ -3,26 +3,40 @@
 ## High-Level Flow
 
 ```text
-creative requirement and source analysis
-  -> segment prompt and generation gate
-  -> human confirmation
-  -> AI video generation
-  -> generated segment download
-  -> segment review and gate status update
-  -> FFmpeg trial edit
-  -> QC notes and review notification
+new video requirement
+  -> create guarded run
+  -> bind Name Gate
+  -> prompt approval package
+  -> dedicated Jimeng browser preflight
+  -> explicit human confirmation
+  -> AI video segment generation
+  -> segment review and rerun/take decision
+  -> state reconciliation
+  -> smart edit / stitching
+  -> delivery package and teammate handoff
 ```
 
 ## Key Control Point
 
-The workflow is intentionally not fully unattended. Generation should only start after an explicit human confirmation. This protects budget, brand quality, and responsibility boundaries.
+The workflow is intentionally not fully unattended. Generation should only start after explicit human confirmation of the current video identity, Jimeng dialogue, final output name, workspace, and prompt package. This protects budget, brand quality, and responsibility boundaries.
+
+## Name Gate Rule
+
+```text
+One video project = one bound Jimeng dialogue.
+All segments, reruns, and takes for that video stay in that dialogue.
+The next video project creates and binds a new dialogue.
+```
+
+The dedicated browser can be reused. The production dialogue cannot be reused across unrelated videos.
 
 ## Work Details Worth Reporting
 
-- The MVP treats AI generation as a controlled production process, not a one-click black box.
-- Segment generation is paused when the larger pipeline needs validation, instead of blindly producing more assets.
-- The process identified practical AI-video risks: embedded subtitle leakage, inconsistent口播, and unstable page automation.
-- The next engineering step is clear: preflight the generation page before any new segment is created.
+- The pipeline treats AI generation as a controlled production process, not a one-click black box.
+- Segment generation is allowed to pause, rerun, or move forward based on explicit review.
+- The process identified practical AI-video risks: wrong conversation selection, embedded subtitle leakage, inconsistent口播, visual identity drift, and unstable page automation.
+- The stable operating model is guarded semi-automation: Codex prepares and checks the workflow, while the user approves high-risk generation and quality decisions.
+- The next engineering step is quality automation, including visual identity checks, black/green screen detection, OCR risk checks, and final subtitle/CTA automation.
 
 ## Governance Gates
 
@@ -31,5 +45,5 @@ The workflow is intentionally not fully unattended. Generation should only start
 - No extracted frames in public Git.
 - No private prompt packs in public Git.
 - No webhook secrets in public Git.
+- No real platform workspace URLs, dialogue identifiers, or account state in public Git.
 - No imitation or adaptation notes are public without review.
-

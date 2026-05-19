@@ -11,7 +11,7 @@ This portfolio summarizes four automation workstreams completed or advanced for 
 | Project | What Was Built | Business Value |
 | --- | --- | --- |
 | [Audio BI Transcription](./projects/audio-bi-transcription/) | BI 导出、录音下载、Whisper 转写、飞书同步、批次报告、失败重试 | 把通话复盘从手工整理变成可追踪的批处理流水线 |
-| [AI Video Automation MVP](./projects/ai-video-automation-mvp/) | Codex 中控、人工 Gate、即梦生成辅助、自动下载、FFmpeg 剪辑、QC、钉钉提醒 | 把一次性 AI 视频制作沉淀为可复用生产线 |
+| [AI Video Automation Pipeline](./projects/ai-video-automation-mvp/) | Codex 中控、Name Gate、专用即梦浏览器、人工审核、分段重跑、智能剪辑、交付归档 | 把一次性 AI 视频制作升级为带安全闸口的半自动生产线 |
 | [Math Asset Automation](./projects/math-asset-automation/) | 素材需求转列、多维表格任务读取、图片产物上传、状态回填、协作 SOP | 把投放素材生产从聊天驱动变成任务驱动 |
 | [Xiaohongshu Local Admin](./projects/xiaohongshu-local-admin/) | 账号 DNA、Codex 内容生成、Notion 同步、图片工作流、发布门禁、MCP 检查 | 把小红书内容运营从分散步骤变成有检查点的本地工作台 |
 
