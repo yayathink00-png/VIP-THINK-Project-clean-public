@@ -16,6 +16,24 @@ new video requirement
   -> delivery package and teammate handoff
 ```
 
+## Current Production Chain
+
+The validated chain now covers both setup and daily execution:
+
+```text
+asset and output confirmation
+  -> source-structure breakdown
+  -> segment script and narration plan
+  -> character/style anchoring
+  -> segment prompt preview
+  -> human approval gate
+  -> automated generation submission
+  -> async status query and download
+  -> returned-video review package
+  -> accept/rerun decision
+  -> leadership progress summary
+```
+
 ## Key Control Point
 
 The workflow is intentionally not fully unattended. Generation should only start after explicit human confirmation of the current video identity, Jimeng dialogue, final output name, workspace, and prompt package. This protects budget, brand quality, and responsibility boundaries.
@@ -35,6 +53,7 @@ The dedicated browser can be reused. The production dialogue cannot be reused ac
 - The pipeline treats AI generation as a controlled production process, not a one-click black box.
 - Segment generation is allowed to pause, rerun, or move forward based on explicit review.
 - The process identified practical AI-video risks: wrong conversation selection, embedded subtitle leakage, inconsistent口播, visual identity drift, and unstable page automation.
+- The latest production cycle also surfaced a specific CTA risk: visual structure can improve while long-form narration still drifts, so audio accuracy must remain a separate acceptance gate.
 - The stable operating model is guarded semi-automation: Codex prepares and checks the workflow, while the user approves high-risk generation and quality decisions.
 - The next engineering step is quality automation, including visual identity checks, black/green screen detection, OCR risk checks, and final subtitle/CTA automation.
 

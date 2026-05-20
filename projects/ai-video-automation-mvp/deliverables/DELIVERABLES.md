@@ -12,6 +12,9 @@
 - Verified smart edit direction with stitched review output and package handoff.
 - Documented DingTalk review notification boundary: notify reviewers, do not send generated video files.
 - Created a teammate handoff pack with clean runbook, pipeline overview, and start prompt.
+- Added a second production-cycle progress scan for a four-segment AI video workflow.
+- Validated prompt preview, explicit approval, automated submission, async query/download, returned-video review, and leadership reporting as one connected chain.
+- Documented the current CTA quality blocker: narration accuracy remains the key unresolved issue even when visual structure improves.
 
 ## Implementation Evidence In Original Working Repo
 
@@ -28,3 +31,4 @@ Safe migration can be done later for:
 - sanitized segment lifecycle template
 - fake notification payload
 - synthetic demo video or screenshots approved for public use
+- public-safe daily progress scans that report workflow maturity without raw assets
