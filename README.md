@@ -15,6 +15,12 @@ This portfolio summarizes four automation workstreams completed or advanced for 
 | [Math Asset Automation](./projects/math-asset-automation/) | 素材需求转列、多维表格任务读取、图片产物上传、状态回填、协作 SOP | 把投放素材生产从聊天驱动变成任务驱动 |
 | [Xiaohongshu Local Admin](./projects/xiaohongshu-local-admin/) | 账号 DNA、Codex 内容生成、Notion 同步、图片工作流、发布门禁、MCP 检查 | 把小红书内容运营从分散步骤变成有检查点的本地工作台 |
 
+## Reusable Skills
+
+| Skill | What It Does | Usage |
+| --- | --- | --- |
+| [Social Image Video Maker](./skills/social-image-video-maker/) | 批量把图片转成 800x960 社媒短视频，支持随机音乐、动态贴纸、日期归档和固定命名 | 适合小红书、社媒广告素材和教育海报批量转视频 |
+
 ## What This Shows
 
 This clean portfolio shows the real work without exposing sensitive operational assets:
@@ -68,6 +74,11 @@ projects/
 docs/
   governance/
   reports/
+skills/
+  social-image-video-maker/
+    scripts/
+    references/
+    agents/
 ```
 
 ## Governance Boundary
