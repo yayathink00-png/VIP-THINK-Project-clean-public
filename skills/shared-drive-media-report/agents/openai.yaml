@@ -1,0 +1,4 @@
+interface:
+  display_name: "共享盘素材播报"
+  short_description: "扫描共享盘新增图片和视频，并通过钉钉内容机器人播报。"
+  default_prompt: "扫描共享盘本次新增素材并发送钉钉播报。"
