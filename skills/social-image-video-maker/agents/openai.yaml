@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Image Video Maker"
+  short_description: "Make 800x960 videos from image folders."
+  default_prompt: "把这个文件夹里的图片做成800x960社媒短视频，使用默认音乐和动态贴纸。"

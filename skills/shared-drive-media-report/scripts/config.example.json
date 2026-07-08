@@ -1,0 +1,38 @@
+{
+  "roots": [
+    {
+      "label": "video-root",
+      "path": "/Volumes/YOUR_SHARE/path/to/video/materials",
+      "month_folder_patterns": [
+        "{month}月"
+      ],
+      "week_folder_prune": true,
+      "fast_scan": true
+    },
+    {
+      "label": "image-root",
+      "path": "/Volumes/YOUR_SHARE/path/to/image/materials",
+      "month_folder_patterns": [
+        "{year}-{month02}"
+      ],
+      "date_folder_prune": true,
+      "fast_scan": true
+    }
+  ],
+  "state": "./state/state.json",
+  "robot_code": "YOUR_DINGTALK_CONTENT_BOT_ROBOT_CODE",
+  "group_id": "YOUR_DINGTALK_NUMERIC_GROUP_ID",
+  "group": null,
+  "users": null,
+  "title": "新增素材播报",
+  "limit": 20,
+  "output_limit": 20,
+  "max_depth": 2,
+  "changed_within_days": null,
+  "report_schedule": "wed_fri",
+  "ignore_prefix": [
+    ".",
+    "~$"
+  ],
+  "no_send_when_empty": true
+}

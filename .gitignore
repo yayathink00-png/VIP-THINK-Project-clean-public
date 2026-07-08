@@ -1,10 +1,85 @@
+# Public-release .gitignore template
+
+.DS_Store
+Thumbs.db
+
+# Secrets and local env
 .env
 .env.*
 !.env.example
-.DS_Store
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+cookies.json
+storage-state.json
+session*.json
+*token*
+*secret*
+
+# Logs and caches
+*.log
+logs/
+.cache/
+cache/
+tmp/
+temp/
+.pytest_cache/
 __pycache__/
 *.pyc
+node_modules/
+.next/
+.turbo/
+coverage/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw/private inputs
+raw/
+raw-captures/
+raw-sources/
+private/
+local/
+downloads/
+
+# Local generated publishing state
 generated/
-logs/
+
+# Local third-party checkouts
 postiz-app-shallow/
 team-tools-hub-scheduled-posting/
+
+# Generated/exported artifacts
+outputs/
+exports/
+dist/
+build/
+final-releases/
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.pdf
+*.html
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.pptx
+
+# Media assets blocked unless explicitly approved
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.mp3
+*.wav
