@@ -1,0 +1,11 @@
+[Unit]
+Description=AI Video Daily Report - request approval
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/vipthink/ai-video-daily-report
+Environment=DWS_BIN=/usr/local/bin/dws
+Environment=HOME=/root
+ExecStart=/usr/bin/python3 /opt/vipthink/ai-video-daily-report/scripts/ai_video_daily_report_bot.py --previous-report-day --request-approval
