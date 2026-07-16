@@ -1,0 +1,19 @@
+{
+  "sheet_node_id": "YOUR_DINGTALK_SHEET_NODE_ID",
+  "sheet_url": "https://alidocs.dingtalk.com/i/nodes/YOUR_DINGTALK_SHEET_NODE_ID",
+  "sheet_id": "YOUR_SHEET_ID",
+  "read_range": "A1:AB500",
+  "target_group_id": "YOUR_TARGET_OPEN_CONVERSATION_ID",
+  "target_group_number": "YOUR_TARGET_GROUP_NUMBER",
+  "target_group_name": "YOUR_TARGET_GROUP_NAME",
+  "robot_code": "YOUR_DINGTALK_CONTENT_BOT_ROBOT_CODE",
+  "review_user_id": "YOUR_REVIEWER_USER_ID",
+  "review_user_open_dingtalk_id": "YOUR_REVIEWER_OPEN_DINGTALK_ID",
+  "approval_group_id": "YOUR_APPROVAL_OPEN_CONVERSATION_ID",
+  "approval_group_number": "YOUR_APPROVAL_GROUP_NUMBER",
+  "approval_group_name": "YOUR_APPROVAL_GROUP_NAME",
+  "approval_send_mode": "bot",
+  "review_bot_open_dingtalk_id": "YOUR_REVIEW_BOT_OPEN_DINGTALK_ID",
+  "approval_state_path": "state/ai_video_daily_report_approval.json",
+  "timezone": "Asia/Shanghai"
+}

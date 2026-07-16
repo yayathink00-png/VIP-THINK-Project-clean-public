@@ -1,0 +1,11 @@
+[Unit]
+Description=Run AI Video Daily Report approval request on workdays at 10:30 CST
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 10:30:00
+# Do not backfill missed days automatically; stale rows should be reviewed manually.
+Persistent=false
+Unit=ai-video-daily-report-request.service
+
+[Install]
+WantedBy=timers.target

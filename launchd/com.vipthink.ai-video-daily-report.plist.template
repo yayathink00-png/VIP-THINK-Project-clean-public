@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.vipthink.ai-video-daily-report-request-approval</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/YOUR_MAC_USER/.local/share/ai-video-daily-report/scripts/ai_video_daily_report_bot.py</string>
+    <string>--previous-report-day</string>
+    <string>--request-approval</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/YOUR_MAC_USER/.local/share/ai-video-daily-report</string>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>/Users/YOUR_MAC_USER/.local/share/ai-video-daily-report/logs/ai_video_daily_report.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/YOUR_MAC_USER/.local/share/ai-video-daily-report/logs/ai_video_daily_report.err.log</string>
+</dict>
+</plist>

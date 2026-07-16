@@ -39,6 +39,16 @@
 - `examples/messages.txt`：本地测试消息。
 - `deploy/systemd/dingtalk-order-poller.service`：服务器常驻轮询服务模板。
 
+## AI 视频日报自动播报
+
+新增的 AI 视频日报链路位于仓库根目录下的通用目录中：
+
+- `scripts/ai_video_daily_report_bot.py`：读取钉钉台账、生成日报、发起人工确认、确认后发正式群。
+- `config/ai_video_daily_report.example.json`：公开配置样例；真实配置文件不要提交。
+- `docs/ai-video-daily-report/`：台账模板、同事 Codex 提示词、部署和操作 SOP。
+- `deploy/systemd/ai-video-daily-report-*.service`：Linux 服务器定时任务模板。
+- `launchd/com.vipthink.ai-video-daily-report*.plist.template`：macOS launchd 定时任务模板。
+
 ## 本地测试
 
 ```bash

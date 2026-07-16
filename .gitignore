@@ -61,6 +61,8 @@ team-tools-hub-scheduled-posting/
 
 # DingTalk reconciliation local outputs
 output/
+state/
+config/ai_video_daily_report.json
 
 # Generated/exported artifacts
 outputs/
