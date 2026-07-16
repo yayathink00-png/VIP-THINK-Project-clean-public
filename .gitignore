@@ -91,3 +91,14 @@ final-releases/
 *.mov
 *.mp3
 *.wav
+
+# Approved public video segmentation release
+!01_Hook/
+!01_Hook/**
+!02_卖点/
+!02_卖点/**
+!03_CTA/
+!03_CTA/**
+!ASR语义切片清单.csv
+!ASR语义切片文本预览.txt
+!ASR语义切片缩略图总览.jpg
