@@ -1,0 +1,32 @@
+{
+  "brand_name": "VIPTHINK",
+  "source": "VIPTHINK海外VI视觉识别规范手册_2026.01.pdf",
+  "canvas": {
+    "xiaohongshu_width": 1242,
+    "xiaohongshu_height": 1660
+  },
+  "colors": {
+    "primary_green": "#14af6e",
+    "secondary_green": "#a0dc00",
+    "accent_yellow": "#ffe128",
+    "text_black": "#202020",
+    "background_gray": "#f5f5f5"
+  },
+  "typography": {
+    "preferred": "Source Han Sans CN",
+    "fallback": "PingFang SC",
+    "headline_weight": "Bold",
+    "body_weight": "Regular"
+  },
+  "logo_rules": {
+    "light_background": "使用全彩标志",
+    "dark_or_primary_green_background": "使用白彩英文标志",
+    "minimum_screen_width_px": {
+      "english_logo": 64,
+      "graphic_logo": 80
+    },
+    "corner_badge": "长图右下角使用圆角角标；不得拉伸、旋转、描边或添加投影。"
+  },
+  "color_ratio": "主绿与草绿建议约3:1；黄色只用于重点提示，避免大面积铺满。",
+  "image_policy": "使用提供的IP、Logo和历史素材；不得修改IP图形结构，不用AI生成品牌Logo或长文本。"
+}

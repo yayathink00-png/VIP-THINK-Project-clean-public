@@ -1,0 +1,13 @@
+{
+  "purpose": "小红书广告数据读取预留配置。",
+  "authorization_url": "https://ad-market.xiaohongshu.com/auth?appId=8907&scope=[\"report_service\",\"ad_query\",\"ad_manage\",\"account_manage\"]&redirectUri=https://lemon-cougars-invent.loca.lt/oauth/xhs/callback&state=abcd",
+  "allowed_operations": ["report_service", "ad_query"],
+  "blocked_operations": ["ad_manage"],
+  "credential_policy": "access_token和client_secret只能存放在本机受限凭证目录或环境变量，不能写入此项目。",
+  "activation_prerequisites": [
+    "确认redirectUri当前可用且回调服务已启动",
+    "从官方开发者文档确认token交换端点和字段",
+    "配置客户端密钥的安全存储位置",
+    "先以只读报表查询完成一次验证"
+  ]
+}

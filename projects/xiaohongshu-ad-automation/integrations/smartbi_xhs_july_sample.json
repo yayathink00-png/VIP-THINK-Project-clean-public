@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "base_url": "https://bi.61info.cn/smartbi/vision",
+  "tasks": {
+    "xhs_material_performance_july_sample": {
+      "enabled": true,
+      "description": "小红书素材维度历史表现样本，仅用于内容策略 Loop 的只读分析。",
+      "report": {
+        "id": "I2c928087019cf80af80a169e019cf99fa0317421",
+        "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放小红书链路指标-素材维度",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "overrides": [
+          {
+            "key": "开始日期",
+            "value": "2026-07-01",
+            "displayValue": "2026-07-01"
+          },
+          {
+            "key": "结束日期",
+            "value": "2026-07-12",
+            "displayValue": "2026-07-12"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "/Users/yangyi/Documents/xiaohongshu-投放/inputs/performance_data/smartbi_raw/{task}/{run_date}"
+      }
+    }
+  }
+}

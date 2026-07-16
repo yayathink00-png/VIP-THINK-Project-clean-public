@@ -1,0 +1,27 @@
+{
+  "purpose": "导出小红书历史投放表现，供内容策略 Loop 读取。",
+  "cli_path": "/Users/yangyi/Documents/Codex/FB Assistant/smartbi-data-cli/scripts/smartbi_cli.py",
+  "credential_policy": "仅使用SMARTBI_USERNAME和SMARTBI_PASSWORD环境变量；不得写入本项目。",
+  "report": {
+    "name": "投放小红书链路指标-素材维度",
+    "report_id": "I2c928087019cf80af80a169e019cf99fa0317421",
+    "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放小红书链路指标-素材维度",
+    "date_start_filter": "开始日期",
+    "date_end_filter": "结束日期"
+  },
+  "required_normalized_columns": [
+    "publish_date",
+    "material_name",
+    "content_type",
+    "topic",
+    "region",
+    "views",
+    "likes",
+    "comments",
+    "shares",
+    "saves",
+    "leads",
+    "cost"
+  ],
+  "next_action": "执行只读导出后，检查工作簿字段并将素材表现标准化写入 inputs/performance_data/。"
+}

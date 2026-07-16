@@ -1,0 +1,17 @@
+{
+  "refresh_frequency": "weekly",
+  "selection_rule": "每个核心竞品优先保留近30天、图文或视频各不少于10条；只学习结构、需求和表现信号，不复制原文或图片。",
+  "competitors": [
+    {"name": "火花思维", "track": "数学思维", "priority": "P0"},
+    {"name": "豌豆思维", "track": "数学思维", "priority": "P0"},
+    {"name": "Mathplore", "track": "数学思维", "priority": "P0"},
+    {"name": "叫叫思维", "track": "思维启蒙", "priority": "P1"},
+    {"name": "学而思", "track": "综合教育", "priority": "P1"},
+    {"name": "斑马思维", "track": "思维启蒙", "priority": "P1"},
+    {"name": "核桃编程", "track": "少儿编程", "priority": "P1"},
+    {"name": "编程猫", "track": "少儿编程", "priority": "P1"},
+    {"name": "小码王", "track": "少儿编程", "priority": "P2"},
+    {"name": "童程童美", "track": "少儿编程", "priority": "P2"}
+  ],
+  "historical_source": "VIPTHINK/team-tools-hub/分团队代码仓库/投放及内容/徐伟信/小红书竞品资料"
+}

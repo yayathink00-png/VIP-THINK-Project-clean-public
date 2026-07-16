@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local credentials and OAuth runtime state.
+integrations/xhs_ad_oauth.status.json
+*.env
+
+# Raw/sensitive crawl data may contain xsec_token or platform request tokens.
+inputs/competitor_data/raw/
+inputs/competitor_data/distiller/
+inputs/competitor_data/compat/
+inputs/competitor_data/analysis/**/*.json
+
+# Local BI source exports can contain private business data.
+inputs/performance_data/smartbi_raw/
+*.xlsx

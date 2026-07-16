@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "vipthink_ip",
+      "kind": "brand_ip",
+      "path": "/Users/yangyi/Desktop/欢乐童年/VIP THINK 背景/IP",
+      "priority": "high"
+    },
+    {
+      "id": "vipthink_logo",
+      "kind": "brand_logo",
+      "path": "/Users/yangyi/Desktop/欢乐童年/VIP THINK 背景/logo",
+      "priority": "high"
+    },
+    {
+      "id": "historical_video",
+      "kind": "historical_video",
+      "path": "/Volumes/海外投放素材库/视频素材/测试素材（纯测试）",
+      "priority": "medium"
+    },
+    {
+      "id": "historical_thinking_images",
+      "kind": "historical_image",
+      "path": "/Volumes/海外投放素材库/图片素材/思维",
+      "priority": "medium"
+    }
+  ],
+  "notes": "素材只建立路径和标签索引，不复制原文件到本项目。"
+}
